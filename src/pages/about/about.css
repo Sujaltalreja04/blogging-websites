@@ -1,0 +1,54 @@
+.aboutSection {
+  min-height: 100vh;
+  padding: 32px 224px 96px;
+}
+
+.pageTitle {
+  margin-bottom: 8rem;
+  font-size: 12rem;
+  text-transform: uppercase;
+  letter-spacing: -5px;
+  color: var(--text-color);
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .description {
+  width: 20%;
+  border-top: 1px solid var(--primary-color);
+  padding-top: 64px;
+}
+
+.description h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.content .textBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  border-top: 1px solid var(--primary-color);
+  padding: 64px 0;
+}
+
+.first .textBox {
+  align-items: flex-end;
+}
+
+.second .textBox {
+  align-items: flex-start;
+}
+
+.second .description h2 {
+  text-align: right;
+}
+
+.textBox p {
+  width: 75%;
+}

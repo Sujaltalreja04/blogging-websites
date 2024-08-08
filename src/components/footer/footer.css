@@ -1,0 +1,80 @@
+footer {
+  background: var(--background-color);
+  padding: 10px;
+}
+
+.socialbtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  background: var(--background-color);
+  border-radius: 20px;
+}
+
+.socialbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.socialbtn:hover {
+  background-color: var(--background-color);
+}
+
+.socialbtn svg {
+  transition: 0.3s;
+}
+
+.facebook svg {
+  fill: var(--facebook-color);
+}
+
+.facebook:hover {
+  background-color: var(--facebook-color);
+}
+
+.facebook:hover svg {
+  fill: var(--background-color);
+}
+
+.github svg {
+  fill: var(--github-color);
+}
+
+.github:hover {
+  background-color: var(--github-color);
+}
+
+.github:hover svg {
+  fill: var(--background-color);
+}
+
+.linkedin svg {
+  fill: var(--linkedin-color);
+}
+
+.linkedin:hover {
+  background-color: var(--linkedin-color);
+}
+
+.linkedin:hover svg {
+  fill: var(--background-color);
+}
+
+.instagram svg {
+  fill: var(--instagram-color);
+}
+
+.instagram:hover {
+  background-color: var(--instagram-color);
+}
+
+.instagram:hover svg {
+  fill: var(--background-color);
+}

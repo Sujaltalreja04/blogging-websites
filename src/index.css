@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --primary-color: #6fb3b8;
+  --secondary-color: #badfe7;
+  --background-color: #f6f6f2;
+  --white-color: #f2f3fc;
+  --whiteborder-color: #e6e6e6;
+  --mintgreen-color: #c2edce;
+  --text-color: #388087;
+  --jetblack-color: #343434;
+  --facebook-color: #3b5998;
+  --github-color: #333;
+  --linkedin-color: #0077b5;
+  --instagram-color: #c13584;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--secondary-color);
+  color: var(--jetblack-color);
+}
+
+h1,
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+a {
+  font-size: 17px;
+}
+
+a:visited {
+  color: inherit;
+}
+
+ul,
+li,
+a,
+button,
+input,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: #5a5a5a;
+  font-size: 15px;
+}
+
+label {
+  color: var(--jetblack-color);
+  font-size: 13px;
+}
+
+input {
+  color: var(--jetblack-color);
+}
+
+form,
+.boxItems {
+  border: 1px solid var(--whiteborder-color);
+  border-radius: 12px;
+  padding: 20px;
+  background: var(--white-color);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 80px auto 0;
+  padding: 40px;
+}
+
+.accountInfo .right input {
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #212121;
+  font-size: 15px;
+  min-height: 44px;
+  padding: 0 20px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.link {
+  color: #000;
+}
+
+.container {
+  max-width: 95%;
+  margin: auto;
+}
+
+.button {
+  background: var(--primary-color);
+  border: 1px solid var(--white-color);
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 400;
+  height: 48px;
+  left: 1px;
+  padding: 15px 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
